@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Ameer Hamza - projectpage</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('home img.jpg'); /* Replace with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            /* filter: brightness(30%); Further decreases the brightness of the background image */
+        }
+        header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: relative;
+            z-index: 1;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            position: relative;
+            z-index: 1;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Thicker text shadow */
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            min-height: calc(100vh - 60px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid green;
+            position: relative;
+            z-index: 1;
+        }
+        .content {
+            width: 80%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            color: white; /* Ensure text remains white */
+            position: relative;
+            z-index: 1;
+            filter: brightness(1.5) contrast(1.2); /* Increase brightness and contrast of text */
+        }
+        .projects-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .box {
+            background-color: black; /* Changed background color to solid black */
+            border: 2px solid green;
+            border-radius: 5px;
+            padding: 20px;
+            width: 250px; /* Fixed width and height to make them square */
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Added shadow effect */
+            position: relative;
+            z-index: 1;
+        }
+        .box h3 {
+            margin-top: 0;
+            color: rgb(255, 255, 255); /* Changed heading color to green */
+        }
+        .box p {
+            color: white; /* Set text color to white */
+        }
+        .content h2 {
+            text-align: center;
+            text-shadow: 0 0 15px rgba(0, 255, 76, 0.8); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/home.html">Home</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/About.html">About</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/resume.html">Resume</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/Projects.html">Project</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/contact.html">Contact</a>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="box">
+                    <h3>Health Insurance Premium Prediction</h3>
+                    <p>I conducted an in-depth comparison of different machine learning models and identified the most appropriate one for the task, resulting in a 92% accuracy rate.</p>
+                </div>
+                <div class="box">
+                    <h3>Creating Web Application for Login Form Validation</h3>
+                    <p>For this project, we utilized HTML, CSS, and JavaScript to implement the validation for the login page.</p>
+                </div>
+                <div class="box">
+                    <h3>Data Argumentation Based On Generative Adversarial Networks For Endoscopic Image Classification</h3>
+                    <p>In this project, we employed data science programming for the backend, while utilizing HTML, CSS, and JavaScript for the frontend development of the website.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

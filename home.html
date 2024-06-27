@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Ameer Hamza - Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('home img.jpg'); /* Make sure to replace 'background.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 2px solid green; /* Added green border */
+        }
+        .text-column {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+            border: 2px solid green;
+        }
+        .name {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .quotation-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            height: 2em; /* Adjust the height as needed */
+            margin: 20px 0;
+        }
+        .quotation {
+            position: absolute;
+            white-space: nowrap;
+            animation: scroll 20s linear infinite;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .nav-links {
+            margin-top: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1em;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-column">
+            <div class="name">Shaik Ameer Hamza</div>
+            <div class="quotation-container">
+                <div class="quotation">Seeking a challenging role in an organization where I can leverage my technical skills to contribute to company success while fostering my own professional growth.</div>
+            </div>
+            <div class="nav-links">
+                <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/home.html">Home</a>
+                <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/About.html">About</a>
+                <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/resume.html">Resume</a>
+                <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/Projects.html">Project</a>
+                <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

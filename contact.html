@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Ameer Hamza - contactpage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-image: url('home img.jpg'); /* Replace with your background image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: black; /* Black background color */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect */
+            color: #fff;
+            border: 6px solid green;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 1px solid #fff;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+            color: #fff;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/home.html">Home</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/About.html">About</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/resume.html">Resume</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/Projects.html">Project</a>
+        <a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/contact.html">Contact</a>
+    </header>
+    <div class="container">
+        <h1>Contact</h1>
+        <hr>
+        <p>Name: Shaik Ameer Hamza</p>
+        <p>Email: ameerhamza2003s@gmail.com</p>
+        <p>Phone: +91 6301663919</p>
+        <p>Address: Vijayawada, Andhra Pradesh, India</p>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Ameer Hamza - Aboutpage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: white; /* Set text color to white */
+            background-image: url('home img.jpg'); /* Make sure the image path is correct */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: black;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white; /* Set text color to white */
+            font-size: 18px;
+        }
+
+        main {
+            padding-top: 60px; /* Add padding-top to account for the fixed header height */
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            min-height: calc(100vh - 60px);
+        }
+
+        .content-wrapper {
+            width: 80%;
+            max-width: 1200px;
+            background-color: black; /* Black background color */
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid green; /* Green border */
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .top-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        .image-container img {
+            border-radius: 50%;
+            max-width: 250px;
+            height: auto;
+        }
+
+        .details {
+            flex: 2;
+            text-align: left;
+        }
+
+        .name {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .quotation {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        .info p {
+            margin: 10px 0;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skill {
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 2px solid green;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: 150px;
+        }
+
+        hr {
+            color: greenyellow;
+        }
+
+        .skill img {
+            max-width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .cv-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white; /* Set text color to white */
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            margin: 20px 0;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cv-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/home.html">Home</a></li>
+                <li><a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/About.html">About</a></li>
+                <li><a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/resume.html">Resume</a></li>
+                <li><a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/Projects.html">Project</a></li>
+                <li><a href="file:///C:/Users/SHREEEE/Desktop/Git-hub/hiper/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="content">
+                    <h1>About</h1>
+                    <hr>
+                    <div class="top-section">
+                        <div class="image-container">
+                            <img src="Ameer.jpg" alt="Shaik Ameer Hamza"> <!-- Replace 'Ameer.jpg' with the path to your image -->
+                        </div>
+                        <div class="details">
+                            <div class="name">Shaik Ameer Hamza</div>
+                            <div class="quotation">IT student with strong technical and clear communication skills. Seeking a dynamic role to contribute and innovate in the IT field.</div>
+                            <div class="info">
+                                <p>Degree: B.Tech</p>
+                                <p>Phone No: +91 6301663919</p>
+                                <p>Email: ameerhamza2003s@gmail.com</p>
+                                <p>Birthday: 28/04/2003</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-container">
+                        <h2>Technical Skills</h2>
+                        <div class="skills">
+                            <div class="skill">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" alt="C++ Logo">
+                                <p>C++</p>
+                            </div>
+                            <div class="skill">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo">
+                                <p>Python</p>
+                            </div>
+                            <div class="skill">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java Logo">
+                                <p>Java</p>
+                            </div>
+                            <div class="skill">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+                                <p>HTML</p>
+                            </div>
+                            <div class="skill">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo">
+                                <p>CSS</p>
+                            </div>
+                            <div class="skill">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo">
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="skill">
+                                <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL Logo">
+                                <p>MySQL</p>
+                            </div>
+                        </div>
+                        <a href="your-cv.pdf" class="cv-button" target="_blank">Download CV/Resume</a> <!-- Replace 'your-cv.pdf' with the path to your CV/Resume -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
